@@ -1,28 +1,35 @@
 body {
     padding: 0;
     margin: 0;
-    display: flex;
-}
-
-h1 {
-    font-family: 'Lobster', cursive;
-}
-
-.name-riyad {
-    color: orange;
-    font-family: 'Tiro Devanagari Sanskrit', serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 section {
+    height: 500px;
+    padding-bottom: 150px;
     display: flex;
+}
+
+.top-banner {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat
 }
 
 .half-width {
     width: 50%;
     float: left;
-    padding: 5px 20px;
-    text-align: justify;
-    font-weight: 700;
+
+    padding-left: 3%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+h1 span {
+    color: orange;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
 }
 
 .half-width img {
@@ -31,17 +38,22 @@ section {
 
 .link-button {
     background-image: linear-gradient(red, tomato);
-    padding: 5px 20px;
+    padding: 10px 40px;
     color: white;
-    margin-top: 20px;
     font-weight: 700;
-    font-family: 'Tiro Devanagari Sanskrit', serif;
     word-spacing: 1px;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.top-banner {
-    background-image: url(./images/top-banner.png);
-    background-repeat: no-repeat
+
+
+p {
+    color: dimgray;
+}
+
+.dream-big {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
