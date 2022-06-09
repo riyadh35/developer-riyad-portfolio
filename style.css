@@ -99,4 +99,8 @@ p {
 
 footer p {
     text-align: center;
+    color: red;
+    font-size: 12px;
+    font-family: 'Lobster', cursive;
+
 }
